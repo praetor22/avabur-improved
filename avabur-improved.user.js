@@ -4,11 +4,9 @@
 // @author         Alorel <a.molcanovas@gmail.com>
 // @homepage       https://github.com/Alorel/avabur-improved
 // @description    Some welcome additions to Avabur's UI choices
-// @include        https://avabur.com/game.php
-// @include        http://avabur.com/game.php
-// @include        https://www.avabur.com/game.php
-// @include        http://www.avabur.com/game.php
-// @version        0.6.7
+// @include        https://*.avabur.com/*
+
+// @version        0.6.8
 // @icon           https://cdn.rawgit.com/Alorel/avabur-improved/0.6.3/res/img/logo-16.png
 // @icon64         https://cdn.rawgit.com/Alorel/avabur-improved/0.6.3/res/img/logo-64.png
 // @downloadURL    https://github.com/Alorel/avabur-improved/raw/master/avabur-improved.user.js
@@ -86,10 +84,6 @@ if (typeof(window.sessionStorage) === "undefined") {
         };
 
         const URLS = {
-            sfx: {
-                circ_saw: gh_url("res/sfx/circ_saw.wav"),
-                message_ding: gh_url("res/sfx/message_ding.wav")
-            },
             css: {
                 toast: gh_url("lib/toastmessage/jquery.toastmessage.min.css"),
                 script: gh_url("res/css/avabur-improved.min.css")
